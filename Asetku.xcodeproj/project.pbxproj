@@ -3,27 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		507BB7B51D47BCECF4CCEC00 /* Pods_Asetku.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2B1AAFBCC31CB8C2A984F1 /* Pods_Asetku.framework */; };
+		8CB72C6D6C8603183944DC66 /* Pods_AsetkuTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CA4BFF028F2F974437825C3 /* Pods_AsetkuTest.framework */; };
 		D629F9672ADF828000BE1607 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D629F9662ADF828000BE1607 /* AppDelegate.swift */; };
-		D629F9692ADF828000BE1607 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D629F9682ADF828000BE1607 /* SceneDelegate.swift */; };
-		D629F96B2ADF828000BE1607 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D629F96A2ADF828000BE1607 /* ViewController.swift */; };
-		D629F96E2ADF828100BE1607 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D629F96C2ADF828100BE1607 /* Main.storyboard */; };
 		D629F9702ADF828300BE1607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D629F96F2ADF828300BE1607 /* Assets.xcassets */; };
 		D629F9732ADF828300BE1607 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D629F9712ADF828300BE1607 /* LaunchScreen.storyboard */; };
+		D629F97E2ADF867D00BE1607 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D629F9662ADF828000BE1607 /* AppDelegate.swift */; };
+		D629F9812ADF867D00BE1607 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D629F9712ADF828300BE1607 /* LaunchScreen.storyboard */; };
+		D629F9822ADF867D00BE1607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D629F96F2ADF828300BE1607 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4719C4C756E21740F76A04BD /* Pods-Asetku.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Asetku.debug.xcconfig"; path = "Target Support Files/Pods-Asetku/Pods-Asetku.debug.xcconfig"; sourceTree = "<group>"; };
+		4D2B1AAFBCC31CB8C2A984F1 /* Pods_Asetku.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Asetku.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5658A18FBEAA1E45F49E8E3C /* Pods-Asetku.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Asetku.release.xcconfig"; path = "Target Support Files/Pods-Asetku/Pods-Asetku.release.xcconfig"; sourceTree = "<group>"; };
+		5F885BCC4D80597B7B077386 /* Pods-AsetkuTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsetkuTest.release.xcconfig"; path = "Target Support Files/Pods-AsetkuTest/Pods-AsetkuTest.release.xcconfig"; sourceTree = "<group>"; };
+		7CA4BFF028F2F974437825C3 /* Pods_AsetkuTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AsetkuTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FBE6F52848980EA9F2876C0 /* Pods-AsetkuTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsetkuTest.debug.xcconfig"; path = "Target Support Files/Pods-AsetkuTest/Pods-AsetkuTest.debug.xcconfig"; sourceTree = "<group>"; };
 		D629F9632ADF828000BE1607 /* Asetku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asetku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D629F9662ADF828000BE1607 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D629F9682ADF828000BE1607 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D629F96A2ADF828000BE1607 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D629F96D2ADF828100BE1607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D629F96F2ADF828300BE1607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D629F9722ADF828300BE1607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D629F9742ADF828300BE1607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D629F9862ADF867D00BE1607 /* AsetkuTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsetkuTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6D530BD2ADFB5F0004FFE1F /* Info-Test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Test.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +38,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				507BB7B51D47BCECF4CCEC00 /* Pods_Asetku.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D629F97F2ADF867D00BE1607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB72C6D6C8603183944DC66 /* Pods_AsetkuTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62B7E4914FE3741FFE167174 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4719C4C756E21740F76A04BD /* Pods-Asetku.debug.xcconfig */,
+				5658A18FBEAA1E45F49E8E3C /* Pods-Asetku.release.xcconfig */,
+				7FBE6F52848980EA9F2876C0 /* Pods-AsetkuTest.debug.xcconfig */,
+				5F885BCC4D80597B7B077386 /* Pods-AsetkuTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D5C71F7C08439D056994AD47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D2B1AAFBCC31CB8C2A984F1 /* Pods_Asetku.framework */,
+				7CA4BFF028F2F974437825C3 /* Pods_AsetkuTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D629F95A2ADF828000BE1607 = {
 			isa = PBXGroup;
 			children = (
 				D629F9652ADF828000BE1607 /* Asetku */,
 				D629F9642ADF828000BE1607 /* Products */,
+				62B7E4914FE3741FFE167174 /* Pods */,
+				D5C71F7C08439D056994AD47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				D629F9632ADF828000BE1607 /* Asetku.app */,
+				D629F9862ADF867D00BE1607 /* AsetkuTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,14 +96,20 @@
 			isa = PBXGroup;
 			children = (
 				D629F9662ADF828000BE1607 /* AppDelegate.swift */,
-				D629F9682ADF828000BE1607 /* SceneDelegate.swift */,
-				D629F96A2ADF828000BE1607 /* ViewController.swift */,
-				D629F96C2ADF828100BE1607 /* Main.storyboard */,
 				D629F96F2ADF828300BE1607 /* Assets.xcassets */,
 				D629F9712ADF828300BE1607 /* LaunchScreen.storyboard */,
-				D629F9742ADF828300BE1607 /* Info.plist */,
+				D629F97B2ADF83F500BE1607 /* Supporting Files */,
 			);
 			path = Asetku;
+			sourceTree = "<group>";
+		};
+		D629F97B2ADF83F500BE1607 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D629F9742ADF828300BE1607 /* Info.plist */,
+				D6D530BD2ADFB5F0004FFE1F /* Info-Test.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +119,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D629F9772ADF828300BE1607 /* Build configuration list for PBXNativeTarget "Asetku" */;
 			buildPhases = (
+				A560ED44B815E9B92C5B178B /* [CP] Check Pods Manifest.lock */,
 				D629F95F2ADF828000BE1607 /* Sources */,
 				D629F9602ADF828000BE1607 /* Frameworks */,
 				D629F9612ADF828000BE1607 /* Resources */,
+				960C50D3A7EAF497034EE684 /* [CP] Embed Pods Frameworks */,
+				02F5FE08013E79DE6AEA438B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -85,6 +133,26 @@
 			name = Asetku;
 			productName = Asetku;
 			productReference = D629F9632ADF828000BE1607 /* Asetku.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D629F97C2ADF867D00BE1607 /* AsetkuTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D629F9832ADF867D00BE1607 /* Build configuration list for PBXNativeTarget "AsetkuTest" */;
+			buildPhases = (
+				4624DE83A4411E460EE97361 /* [CP] Check Pods Manifest.lock */,
+				D629F97D2ADF867D00BE1607 /* Sources */,
+				D629F97F2ADF867D00BE1607 /* Frameworks */,
+				D629F9802ADF867D00BE1607 /* Resources */,
+				9BA37B49E47490AEA553374F /* [CP] Embed Pods Frameworks */,
+				7158491D508217BF919D20D7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsetkuTest;
+			productName = Asetku;
+			productReference = D629F9862ADF867D00BE1607 /* AsetkuTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +171,7 @@
 				};
 			};
 			buildConfigurationList = D629F95E2ADF828000BE1607 /* Build configuration list for PBXProject "Asetku" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -116,6 +184,7 @@
 			projectRoot = "";
 			targets = (
 				D629F9622ADF828000BE1607 /* Asetku */,
+				D629F97C2ADF867D00BE1607 /* AsetkuTest */,
 			);
 		};
 /* End PBXProject section */
@@ -127,34 +196,155 @@
 			files = (
 				D629F9732ADF828300BE1607 /* LaunchScreen.storyboard in Resources */,
 				D629F9702ADF828300BE1607 /* Assets.xcassets in Resources */,
-				D629F96E2ADF828100BE1607 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D629F9802ADF867D00BE1607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D629F9812ADF867D00BE1607 /* LaunchScreen.storyboard in Resources */,
+				D629F9822ADF867D00BE1607 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02F5FE08013E79DE6AEA438B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Asetku/Pods-Asetku-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Asetku/Pods-Asetku-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Asetku/Pods-Asetku-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4624DE83A4411E460EE97361 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AsetkuTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7158491D508217BF919D20D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AsetkuTest/Pods-AsetkuTest-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AsetkuTest/Pods-AsetkuTest-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AsetkuTest/Pods-AsetkuTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		960C50D3A7EAF497034EE684 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Asetku/Pods-Asetku-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Asetku/Pods-Asetku-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Asetku/Pods-Asetku-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BA37B49E47490AEA553374F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AsetkuTest/Pods-AsetkuTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AsetkuTest/Pods-AsetkuTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AsetkuTest/Pods-AsetkuTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A560ED44B815E9B92C5B178B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Asetku-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D629F95F2ADF828000BE1607 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D629F96B2ADF828000BE1607 /* ViewController.swift in Sources */,
 				D629F9672ADF828000BE1607 /* AppDelegate.swift in Sources */,
-				D629F9692ADF828000BE1607 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D629F97D2ADF867D00BE1607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D629F97E2ADF867D00BE1607 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D629F96C2ADF828100BE1607 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D629F96D2ADF828100BE1607 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D629F9712ADF828300BE1607 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,7 +472,9 @@
 		};
 		D629F9782ADF828300BE1607 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4719C4C756E21740F76A04BD /* Pods-Asetku.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,17 +482,18 @@
 				DEVELOPMENT_TEAM = 3K493XFX3H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Asetku/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Asetku;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.asetku.www.Asetku;
+				MARKETING_VERSION = 4.1.13;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.asetku.product;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -310,7 +503,9 @@
 		};
 		D629F9792ADF828300BE1607 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5658A18FBEAA1E45F49E8E3C /* Pods-Asetku.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -318,17 +513,82 @@
 				DEVELOPMENT_TEAM = 3K493XFX3H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Asetku/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Asetku;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.asetku.www.Asetku;
+				MARKETING_VERSION = 4.1.13;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.asetku.product;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D629F9842ADF867D00BE1607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FBE6F52848980EA9F2876C0 /* Pods-AsetkuTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconTest;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3K493XFX3H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Asetku/Info-Test.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Asetku;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 4.1.13;
+				OTHER_SWIFT_FLAGS = "-D COCOAPODS";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.asetku.develop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D629F9852ADF867D00BE1607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F885BCC4D80597B7B077386 /* Pods-AsetkuTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconTest;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3K493XFX3H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Asetku/Info-Test.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Asetku;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 4.1.13;
+				OTHER_SWIFT_FLAGS = "-D COCOAPODS";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.asetku.develop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -353,6 +613,15 @@
 			buildConfigurations = (
 				D629F9782ADF828300BE1607 /* Debug */,
 				D629F9792ADF828300BE1607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D629F9832ADF867D00BE1607 /* Build configuration list for PBXNativeTarget "AsetkuTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D629F9842ADF867D00BE1607 /* Debug */,
+				D629F9852ADF867D00BE1607 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

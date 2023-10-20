@@ -1,0 +1,29 @@
+{
+  "name": "ZJLocalAuth",
+  "version": "0.1.0",
+  "summary": "A short description of ZJLocalAuth.",
+  "homepage": "git@github.com:zhang232425/ZJLocalAuth.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhangjiqing": "yonathan@asetku.com"
+  },
+  "source": {
+    "git": "git@github.com:zhang232425/ZJLocalAuth.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ZJLocalAuth/**/*",
+  "dependencies": {
+    "DeviceKit": [
+
+    ],
+    "ZJKeychain": [
+
+    ]
+  }
+}

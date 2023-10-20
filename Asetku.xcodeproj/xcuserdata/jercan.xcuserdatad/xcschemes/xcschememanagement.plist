@@ -6,8 +6,30 @@
 	<dict>
 		<key>Asetku.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>AsetkuTest.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>D629F9622ADF828000BE1607</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D629F97C2ADF867D00BE1607</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
